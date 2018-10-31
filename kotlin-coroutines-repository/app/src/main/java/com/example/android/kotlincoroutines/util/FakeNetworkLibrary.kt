@@ -20,6 +20,9 @@ import android.os.Handler
 import android.os.Looper
 import java.util.*
 import java.util.concurrent.Executors
+import kotlin.coroutines.resume
+import kotlin.coroutines.resumeWithException
+import kotlin.coroutines.suspendCoroutine
 
 /**
  * This file contains a completely fake networking library that returns a random value after
